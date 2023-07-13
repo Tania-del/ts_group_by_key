@@ -1,6 +1,15 @@
 {
-  "extends": "@mate-academy/students-ts-config",
+  // "extends": "@mate-academy/students-ts-config",
   "include": [
-    "src"
-  ]
+    "src/**/*"
+  ],
+
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonJS",
+    "outDir": "built",
+     "resolveJsonModule": true,
+  },
+
 }
+
